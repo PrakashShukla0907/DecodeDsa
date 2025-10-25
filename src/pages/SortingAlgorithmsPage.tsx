@@ -74,11 +74,6 @@ function SortingAlgorithmsPage() {
     }, 0);
   };
 
-  const handleInputSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (inputArray.trim()) setShowVisualization(true);
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 via-white to-gray-200 dark:from-slate-950 dark:via-slate-900 dark:to-gray-900 transition-colors duration-500">
       <header className="bg-white dark:bg-slate-800 shadow-sm border-b border-gray-200 dark:border-slate-700">
